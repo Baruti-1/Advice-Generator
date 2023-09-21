@@ -27,7 +27,7 @@ const App = () => {
         {/* mobile */}
         <div className="max-w-xs md:hidden">
           {!loading && (
-            <h6 className="text-primary-NeonGreen">ADVICE # {advice.id}</h6>
+            <h1 className="text-primary-NeonGreen">ADVICE # {advice.id}</h1>
           )}
           <p className="text-primary-LightCyan font-bold pt-6">
             {loading ? (
@@ -56,7 +56,7 @@ const App = () => {
         {/* desktop */}
         <div className="hidden md:block max-w-sm">
           {!loading && (
-            <h6 className="text-primary-NeonGreen">ADVICE # {advice.id}</h6>
+            <h1 className="text-primary-NeonGreen">ADVICE # {advice.id}</h1>
           )}
           <p className="text-primary-LightCyan font-bold pt-6">
             {loading ? (

@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+button:hover {
+  filter: drop-shadow(0 0 0.75rem hsl(150, 100%, 66%));
+}
